@@ -34,6 +34,8 @@ $ python logic/take2_train.py
 ```
 * To train the model it can take few minutes to an hour depending on your system. `epochs` defines  training the neural network with all the training data for one cycle I have tried with different values and `25` seems to worked the best with my project.
 * you can set the epochs in `take2_train.py` and also rename your model name
+* [Face detection Cascade](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml) for face detection and the used [Dataset](https://www.kaggle.com/msambare/fer2013)
+* More information on the [model](https://github.com/pypower-codes/Emotion-Detection)
 
 ### Demo video 
 * [demo](https://drive.google.com/file/d/1vkVMU0QmLYqciR4rflpi8JMJf5Cju_cd/view?usp=sharing)
